@@ -1,0 +1,6 @@
+<Solution>
+  <Project Path="ConsoleApp1/papousek.csproj" />
+  <Project Path="Kamen-nuzky-papir/Kamen-nuzky-papir.csproj" Id="06687a62-d332-4091-9a78-c6f4b9ebe01a" />
+  <Project Path="piskvorky/piskvorky.csproj" Id="d2948a97-3302-402c-b709-a736addd962d" />
+  <Project Path="testy/testy.csproj" Id="076944bf-4485-432f-bc7c-32f65c9a27e7" />
+</Solution>

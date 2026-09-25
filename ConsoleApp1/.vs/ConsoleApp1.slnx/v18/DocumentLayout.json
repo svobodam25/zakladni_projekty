@@ -1,0 +1,87 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\svobodam25\\source\\repos\\ConsoleApp1\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{D2948A97-3302-402C-B709-A736ADDD962D}|piskvorky\\piskvorky.csproj|c:\\users\\svobodam25\\source\\repos\\consoleapp1\\piskvorky\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D2948A97-3302-402C-B709-A736ADDD962D}|piskvorky\\piskvorky.csproj|solutionrelative:piskvorky\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{076944BF-4485-432F-BC7C-32F65C9A27E7}|testy\\testy.csproj|c:\\users\\svobodam25\\source\\repos\\consoleapp1\\testy\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{076944BF-4485-432F-BC7C-32F65C9A27E7}|testy\\testy.csproj|solutionrelative:testy\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{06687A62-D332-4091-9A78-C6F4B9EBE01A}|Kamen-nuzky-papir\\Kamen-nuzky-papir.csproj|c:\\users\\svobodam25\\source\\repos\\consoleapp1\\kamen-nuzky-papir\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{06687A62-D332-4091-9A78-C6F4B9EBE01A}|Kamen-nuzky-papir\\Kamen-nuzky-papir.csproj|solutionrelative:kamen-nuzky-papir\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{148D7A7E-6922-8528-468A-B850CA0C88EF}|ConsoleApp1\\papousek.csproj|c:\\users\\svobodam25\\source\\repos\\consoleapp1\\consoleapp1\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{148D7A7E-6922-8528-468A-B850CA0C88EF}|ConsoleApp1\\papousek.csproj|solutionrelative:consoleapp1\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\svobodam25\\source\\repos\\ConsoleApp1\\piskvorky\\Program.cs",
+              "RelativeDocumentMoniker": "piskvorky\\Program.cs",
+              "ToolTip": "C:\\Users\\svobodam25\\source\\repos\\ConsoleApp1\\piskvorky\\Program.cs",
+              "RelativeToolTip": "piskvorky\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAVAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-25T09:32:50.741Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\svobodam25\\source\\repos\\ConsoleApp1\\testy\\Program.cs",
+              "RelativeDocumentMoniker": "testy\\Program.cs",
+              "ToolTip": "C:\\Users\\svobodam25\\source\\repos\\ConsoleApp1\\testy\\Program.cs",
+              "RelativeToolTip": "testy\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAfAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-25T08:59:29.572Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\svobodam25\\source\\repos\\ConsoleApp1\\Kamen-nuzky-papir\\Program.cs",
+              "RelativeDocumentMoniker": "Kamen-nuzky-papir\\Program.cs",
+              "ToolTip": "C:\\Users\\svobodam25\\source\\repos\\ConsoleApp1\\Kamen-nuzky-papir\\Program.cs",
+              "RelativeToolTip": "Kamen-nuzky-papir\\Program.cs",
+              "ViewState": "AgIAABEAAAAAAAAAAAAwwCEAAAAXAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-24T07:16:47.925Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\svobodam25\\source\\repos\\ConsoleApp1\\ConsoleApp1\\Program.cs",
+              "RelativeDocumentMoniker": "ConsoleApp1\\Program.cs",
+              "ToolTip": "C:\\Users\\svobodam25\\source\\repos\\ConsoleApp1\\ConsoleApp1\\Program.cs",
+              "RelativeToolTip": "ConsoleApp1\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-10T07:33:30.991Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

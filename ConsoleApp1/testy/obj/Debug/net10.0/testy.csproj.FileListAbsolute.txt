@@ -1,0 +1,14 @@
+C:\Users\svobodam25\source\repos\ConsoleApp1\testy\bin\Debug\net10.0\testy.exe
+C:\Users\svobodam25\source\repos\ConsoleApp1\testy\bin\Debug\net10.0\testy.deps.json
+C:\Users\svobodam25\source\repos\ConsoleApp1\testy\bin\Debug\net10.0\testy.runtimeconfig.json
+C:\Users\svobodam25\source\repos\ConsoleApp1\testy\bin\Debug\net10.0\testy.dll
+C:\Users\svobodam25\source\repos\ConsoleApp1\testy\bin\Debug\net10.0\testy.pdb
+C:\Users\svobodam25\source\repos\ConsoleApp1\testy\obj\Debug\net10.0\testy.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\svobodam25\source\repos\ConsoleApp1\testy\obj\Debug\net10.0\testy.AssemblyInfoInputs.cache
+C:\Users\svobodam25\source\repos\ConsoleApp1\testy\obj\Debug\net10.0\testy.AssemblyInfo.cs
+C:\Users\svobodam25\source\repos\ConsoleApp1\testy\obj\Debug\net10.0\testy.csproj.CoreCompileInputs.cache
+C:\Users\svobodam25\source\repos\ConsoleApp1\testy\obj\Debug\net10.0\testy.dll
+C:\Users\svobodam25\source\repos\ConsoleApp1\testy\obj\Debug\net10.0\refint\testy.dll
+C:\Users\svobodam25\source\repos\ConsoleApp1\testy\obj\Debug\net10.0\testy.pdb
+C:\Users\svobodam25\source\repos\ConsoleApp1\testy\obj\Debug\net10.0\testy.genruntimeconfig.cache
+C:\Users\svobodam25\source\repos\ConsoleApp1\testy\obj\Debug\net10.0\ref\testy.dll
