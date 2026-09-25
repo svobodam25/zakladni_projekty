@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Sibenice")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+5627d2ac65cf6f2c4ca47bbe85d161e7ae7d1b62")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+c9a46d204fb77fb08f062a6954d9eea01221094e")]
 [assembly: System.Reflection.AssemblyProductAttribute("Sibenice")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Sibenice")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

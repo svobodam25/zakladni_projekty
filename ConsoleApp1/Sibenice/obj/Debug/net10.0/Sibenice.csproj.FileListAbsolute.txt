@@ -1,0 +1,16 @@
+C:\Users\svobodam25\source\repos\zakladni_projekty\ConsoleApp1\Sibenice\bin\Debug\net10.0\Sibenice.exe
+C:\Users\svobodam25\source\repos\zakladni_projekty\ConsoleApp1\Sibenice\bin\Debug\net10.0\slovnik.txt
+C:\Users\svobodam25\source\repos\zakladni_projekty\ConsoleApp1\Sibenice\bin\Debug\net10.0\Sibenice.deps.json
+C:\Users\svobodam25\source\repos\zakladni_projekty\ConsoleApp1\Sibenice\bin\Debug\net10.0\Sibenice.runtimeconfig.json
+C:\Users\svobodam25\source\repos\zakladni_projekty\ConsoleApp1\Sibenice\bin\Debug\net10.0\Sibenice.dll
+C:\Users\svobodam25\source\repos\zakladni_projekty\ConsoleApp1\Sibenice\bin\Debug\net10.0\Sibenice.pdb
+C:\Users\svobodam25\source\repos\zakladni_projekty\ConsoleApp1\Sibenice\obj\Debug\net10.0\Sibenice.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\svobodam25\source\repos\zakladni_projekty\ConsoleApp1\Sibenice\obj\Debug\net10.0\Sibenice.AssemblyInfoInputs.cache
+C:\Users\svobodam25\source\repos\zakladni_projekty\ConsoleApp1\Sibenice\obj\Debug\net10.0\Sibenice.AssemblyInfo.cs
+C:\Users\svobodam25\source\repos\zakladni_projekty\ConsoleApp1\Sibenice\obj\Debug\net10.0\Sibenice.csproj.CoreCompileInputs.cache
+C:\Users\svobodam25\source\repos\zakladni_projekty\ConsoleApp1\Sibenice\obj\Debug\net10.0\Sibenice.sourcelink.json
+C:\Users\svobodam25\source\repos\zakladni_projekty\ConsoleApp1\Sibenice\obj\Debug\net10.0\Sibenice.dll
+C:\Users\svobodam25\source\repos\zakladni_projekty\ConsoleApp1\Sibenice\obj\Debug\net10.0\refint\Sibenice.dll
+C:\Users\svobodam25\source\repos\zakladni_projekty\ConsoleApp1\Sibenice\obj\Debug\net10.0\Sibenice.pdb
+C:\Users\svobodam25\source\repos\zakladni_projekty\ConsoleApp1\Sibenice\obj\Debug\net10.0\Sibenice.genruntimeconfig.cache
+C:\Users\svobodam25\source\repos\zakladni_projekty\ConsoleApp1\Sibenice\obj\Debug\net10.0\ref\Sibenice.dll
