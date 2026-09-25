@@ -14,11 +14,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\svobodam25\\source\\repos\\ConsoleApp1\\testy\\testy.csproj",
+      "projectUniqueName": "C:\\Users\\svobodam25\\source\\repos\\zakladni_projekty\\ConsoleApp1\\testy\\testy.csproj",
       "projectName": "testy",
-      "projectPath": "C:\\Users\\svobodam25\\source\\repos\\ConsoleApp1\\testy\\testy.csproj",
+      "projectPath": "C:\\Users\\svobodam25\\source\\repos\\zakladni_projekty\\ConsoleApp1\\testy\\testy.csproj",
       "packagesPath": "C:\\Users\\svobodam25\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\svobodam25\\source\\repos\\ConsoleApp1\\testy\\obj\\",
+      "outputPath": "C:\\Users\\svobodam25\\source\\repos\\zakladni_projekty\\ConsoleApp1\\testy\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

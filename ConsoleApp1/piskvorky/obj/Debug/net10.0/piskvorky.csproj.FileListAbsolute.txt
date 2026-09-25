@@ -1,0 +1,15 @@
+C:\Users\svobodam25\source\repos\zakladni_projekty\ConsoleApp1\piskvorky\bin\Debug\net10.0\piskvorky.exe
+C:\Users\svobodam25\source\repos\zakladni_projekty\ConsoleApp1\piskvorky\bin\Debug\net10.0\piskvorky.deps.json
+C:\Users\svobodam25\source\repos\zakladni_projekty\ConsoleApp1\piskvorky\bin\Debug\net10.0\piskvorky.runtimeconfig.json
+C:\Users\svobodam25\source\repos\zakladni_projekty\ConsoleApp1\piskvorky\bin\Debug\net10.0\piskvorky.dll
+C:\Users\svobodam25\source\repos\zakladni_projekty\ConsoleApp1\piskvorky\bin\Debug\net10.0\piskvorky.pdb
+C:\Users\svobodam25\source\repos\zakladni_projekty\ConsoleApp1\piskvorky\obj\Debug\net10.0\piskvorky.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\svobodam25\source\repos\zakladni_projekty\ConsoleApp1\piskvorky\obj\Debug\net10.0\piskvorky.AssemblyInfoInputs.cache
+C:\Users\svobodam25\source\repos\zakladni_projekty\ConsoleApp1\piskvorky\obj\Debug\net10.0\piskvorky.AssemblyInfo.cs
+C:\Users\svobodam25\source\repos\zakladni_projekty\ConsoleApp1\piskvorky\obj\Debug\net10.0\piskvorky.csproj.CoreCompileInputs.cache
+C:\Users\svobodam25\source\repos\zakladni_projekty\ConsoleApp1\piskvorky\obj\Debug\net10.0\piskvorky.sourcelink.json
+C:\Users\svobodam25\source\repos\zakladni_projekty\ConsoleApp1\piskvorky\obj\Debug\net10.0\piskvorky.dll
+C:\Users\svobodam25\source\repos\zakladni_projekty\ConsoleApp1\piskvorky\obj\Debug\net10.0\refint\piskvorky.dll
+C:\Users\svobodam25\source\repos\zakladni_projekty\ConsoleApp1\piskvorky\obj\Debug\net10.0\piskvorky.pdb
+C:\Users\svobodam25\source\repos\zakladni_projekty\ConsoleApp1\piskvorky\obj\Debug\net10.0\piskvorky.genruntimeconfig.cache
+C:\Users\svobodam25\source\repos\zakladni_projekty\ConsoleApp1\piskvorky\obj\Debug\net10.0\ref\piskvorky.dll
