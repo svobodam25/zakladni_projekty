@@ -1,5 +1,6 @@
 <Solution>
   <Project Path="Kamen-nuzky-papir/Kamen-nuzky-papir.csproj" Id="06687a62-d332-4091-9a78-c6f4b9ebe01a" />
+  <Project Path="papousek/papousek.csproj" Id="2214e603-b53c-4ffa-8503-92539534eebe" />
   <Project Path="piskvorky/piskvorky.csproj" Id="d2948a97-3302-402c-b709-a736addd962d" />
   <Project Path="Sibenice/Sibenice.csproj" Id="4fc182e1-c613-4bdc-91b8-6ff0de7f88f4" />
 </Solution>
