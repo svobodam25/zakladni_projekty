@@ -5,18 +5,35 @@
 
         static void vytisknout(int[] pole, int sirka, int vyska)
         {
+            int max_cislo = sirka * vyska-1;
+            int pocet_cislic_max = Convert.ToString(max_cislo).Length;
             for (int y = 0; y < vyska; y++)
             {
                 for (int x = 0; x < sirka; x++)
                 {
                     int index = y * sirka + x;
                     int status = pole[index];
+                    string zobrazeni_indexu = Convert.ToString(index + 1);
+
                     string symbol = status switch
                     {
                         1 => "X",
                         2 => "O",
-                        _ => Convert.ToString(index+1),
+                        _ => zobrazeni_indexu,
                     };
+
+                    while (symbol.Length < pocet_cislic_max)
+                    {
+                        if (status == 1 || status == 2)
+                        {
+                            symbol = " " + symbol;
+                        }
+                        else
+                        {
+                            symbol = "0" + symbol;
+                        }
+                    }
+
                     Console.Write(symbol + " ");
                 }
                 Console.WriteLine();
@@ -68,10 +85,40 @@
             for (int i = 0; i < pole.Length; i++)
             {
                 if (pole[i] != 0)
-                {
+                { 
+                    for (int j = 0; j < k_dokonceni; j++) { 
+                        if (i + j * sirka < pole.Length && pole[i + j * sirka] == pole[i]) { 
+                            if (j == k_dokonceni - 1) { 
+                                return pole[i]; 
+                            } 
+                        } 
+                        else { 
+                            break; 
+                        } 
+                    } 
+                    for (int j = 0; j < k_dokonceni; j++) { 
+                        if (i + j < pole.Length && i / sirka == (i + j) / sirka && pole[i + j] == pole[i]) { 
+                            if (j == k_dokonceni - 1) { 
+                                return pole[i]; 
+                            } 
+                        } 
+                        else { 
+                            break; 
+                        } 
+                    } 
+                    for (int j = 0; j < k_dokonceni; j++) { 
+                        if (i + j * (sirka + 1) < pole.Length && (i + j * (sirka + 1)) / sirka == i / sirka + j && pole[i + j * (sirka + 1)] == pole[i]) { 
+                            if (j == k_dokonceni - 1) { 
+                                return pole[i]; 
+                            } 
+                        } 
+                        else { 
+                            break; 
+                        } 
+                    }
                     for (int j = 0; j < k_dokonceni; j++)
                     {
-                        if (i + j * sirka < pole.Length && pole[i + j * sirka] == pole[i])
+                        if (i - j * (sirka - 1) >= 0 && (i - j * (sirka - 1)) / sirka == i / sirka - j && pole[i - j * (sirka - 1)] == pole[i])
                         {
                             if (j == k_dokonceni - 1)
                             {
@@ -83,9 +130,9 @@
                             break;
                         }
                     }
-                }
-            }   
-            return 0;
+                } 
+            } 
+            return 0; 
         }
 
         static void Main(string[] args)
