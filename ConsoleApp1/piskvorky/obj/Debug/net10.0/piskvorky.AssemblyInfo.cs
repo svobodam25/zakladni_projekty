@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("piskvorky")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+dff058b80d96c4e08be3b1143b6e42581cec1006")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+427e35d13b46fa0d97a28e17ff1af35ff92c0289")]
 [assembly: System.Reflection.AssemblyProductAttribute("piskvorky")]
 [assembly: System.Reflection.AssemblyTitleAttribute("piskvorky")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

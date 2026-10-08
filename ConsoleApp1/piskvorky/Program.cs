@@ -137,9 +137,9 @@
 
         static void Main(string[] args)
         {
-            int sirka_piskvorek = 3;
-            int vyska_piskvorek = 3;
-            int k_dokonceni = 3;
+            int sirka_piskvorek = 40;
+            int vyska_piskvorek = 40;
+            int k_dokonceni = 10;
 
             int[] pole = new int[sirka_piskvorek * vyska_piskvorek];
             vytisknout(pole, sirka_piskvorek, vyska_piskvorek);
