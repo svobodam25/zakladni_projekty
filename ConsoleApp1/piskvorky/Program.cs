@@ -145,6 +145,11 @@
             vytisknout(pole, sirka_piskvorek, vyska_piskvorek);
             while (true) {
                 int volba_hrace = volbahrace(sirka_piskvorek, vyska_piskvorek);
+                while (pole[volba_hrace] != 0)
+                {
+                    Console.WriteLine("Toto pole je již obsazeno. Zvolte jiné.");
+                    volba_hrace = volbahrace(sirka_piskvorek, vyska_piskvorek);
+                }
                 pole[volba_hrace] = 1;
                 vytisknout(pole, sirka_piskvorek, vyska_piskvorek);
                 int vysledek = vyhodnoceni(pole, k_dokonceni, sirka_piskvorek, vyska_piskvorek);
