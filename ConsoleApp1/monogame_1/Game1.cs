@@ -19,15 +19,12 @@ namespace monogame_1
 
         int rychlost = 5;
 
-        int nepritel_rychlost = 3;
+        int nastaveni_nepritel_rychlost = 3;
 
-        float nepritel_x = 200;
-        float nepritel_y = 100;
 
-        int nepratele = 50;
-        float[] nepratele_x;
-        float[] nepratele_y;
-        float[] nepratele_rychlosti;
+        int pocet_nepratel = 50;
+
+        Nepritel_trida[] nepratele;
 
         public Game1()
         {
@@ -38,16 +35,18 @@ namespace monogame_1
 
         protected override void Initialize()
         {
-            // TODO: Add your initialization logic here
-            nepratele_x = new float[nepratele];
-            nepratele_y = new float[nepratele];
-            nepratele_rychlosti = new float[nepratele];
+            nepratele = new Nepritel_trida[pocet_nepratel];
 
-            for (int i = 0; i < nepratele; i++)
+
+
+            for (int i = 0; i < pocet_nepratel; i++)
             {
-                nepratele_x[i] = new Random().Next(-velikost_ctverce, 800 - velikost_ctverce);
-                nepratele_y[i] = new Random().Next(-velikost_ctverce, 600 - velikost_ctverce);
-                nepratele_rychlosti[i] = new Random().Next(150, nepritel_rychlost * 100) / 100.0f;
+                float x = new Random().Next(-velikost_ctverce, 800 - velikost_ctverce);
+                float y = new Random().Next(-velikost_ctverce, 600 - velikost_ctverce);
+                float nepritel_rychlost = new Random().Next(150, nastaveni_nepritel_rychlost * 100) / 100.0f;
+
+                nepratele[i] = new Nepritel_trida();
+                nepratele[i].Nepritel(x, y, nepritel_rychlost);
             }
 
             base.Initialize();
@@ -105,45 +104,10 @@ namespace monogame_1
                 y += rychlost;
             }
 
-            for (int i = 0; i < nepratele; i++)
+            for (int i = 0; i < pocet_nepratel; i++)
             {
-                float vzd_x = System.Math.Abs(x - nepratele_x[i]);
-                float vzd_y = System.Math.Abs(y - nepratele_y[i]);
-                float total_vzd = vzd_x + vzd_y;
-                float rychlost_x = vzd_x / total_vzd * nepratele_rychlosti[i];
-                float rychlost_y = vzd_y / total_vzd * nepratele_rychlosti[i];
-                if (x >= nepratele_x[i])
-                {
-                    nepratele_x[i] += rychlost_x;
-                    if (!(x >= nepratele_x[i]))
-                    {
-                        nepratele_x[i] = x;
-                    }
-                }
-                else
-                {
-                    nepratele_x[i] -= rychlost_x;
-                    if (x >= nepratele_x[i])
-                    {
-                        nepratele_x[i] = x;
-                    }
-                }
-                if (y >= nepratele_y[i])
-                {
-                    nepratele_y[i] += rychlost_y;
-                    if (!(y >= nepratele_y[i]))
-                    {
-                        nepratele_y[i] = y;
-                    }
-                }
-                else
-                {
-                    nepratele_y[i] -= rychlost_y;
-                    if (y >= nepratele_y[i])
-                    {
-                        nepratele_y[i] = y;
-                    }
-                }
+                Nepritel_trida nepritel = nepratele[i];
+                nepritel.pohnise(x, y);
             }
 
 
@@ -157,9 +121,10 @@ namespace monogame_1
             GraphicsDevice.Clear(Color.White);
 
             _spriteBatch.Begin();
-            for (int i = 0; i < nepratele; i++)
+            for (int i = 0; i < pocet_nepratel; i++)
             {
-                _spriteBatch.Draw(mojeTextura2, new Vector2(nepratele_x[i], nepratele_y[i]), Color.Red);
+                Nepritel_trida nepritel = nepratele[i];
+                _spriteBatch.Draw(mojeTextura2, new Vector2(nepritel.x, nepritel.y), Color.Red);
             }
 
             _spriteBatch.Draw(mojeTextura, new Vector2(x, y), Color.White);
